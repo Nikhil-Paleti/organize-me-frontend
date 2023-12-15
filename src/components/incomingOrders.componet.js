@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { listAllProducts, updateProduct } from '../actions/productActions';
 import {listAllOrders, updateOrderStatus} from "../actions/orderAction"
-import { Modal, Button, Form } from 'react-bootstrap'; 
+import { Modal, Button } from 'react-bootstrap'; 
 
 
 class ManageOrdersPage extends Component {

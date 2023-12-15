@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { listAllProducts } from '../actions/productActions';
 import {listAllOrders} from "../actions/orderAction"
 import { listAllUsers } from '../actions/userAction';
-import { Modal, Button, Form } from 'react-bootstrap'; 
+import { Modal, Button } from 'react-bootstrap'; 
 
 
 class GenerateInvoicePage extends Component {

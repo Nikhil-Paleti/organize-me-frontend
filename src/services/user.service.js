@@ -23,4 +23,5 @@ class UserService {
   }
 }
 
-export default new UserService();
+const userservinst = new UserService();
+export default userservinst;

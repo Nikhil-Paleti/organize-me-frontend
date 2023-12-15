@@ -51,4 +51,5 @@ class OrderService {
   }
 }
 
-export default new OrderService();
+const orderserviceinst = new OrderService();
+export default orderserviceinst;

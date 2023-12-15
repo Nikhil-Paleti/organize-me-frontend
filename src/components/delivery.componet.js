@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { listAllProducts } from '../actions/productActions';
 import {listAllOrders, updateOrderStatus} from "../actions/orderAction"
-import { Modal, Button, Form } from 'react-bootstrap'; 
+import { Modal, Button } from 'react-bootstrap'; 
 
 
 class ManageDeliveryPage extends Component {
@@ -29,9 +29,6 @@ class ManageDeliveryPage extends Component {
     };
 
     handleChangeOrderStatus = (orderId) => {
-        const { selectedOrder } = this.state;
-        const { products } = this.props; // Access products from props instead of state
-      
         this.props.dispatch(updateOrderStatus(orderId, "delivered"));
         this.setState({ showModal: false });
       }

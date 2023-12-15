@@ -33,7 +33,6 @@ class EditUserPage extends Component {
     componentDidMount() {
         this.props.dispatch(listAllUsers());
         const storedUserData = JSON.parse(localStorage.getItem("user"));
-        const currentUserId = storedUserData ? storedUserData.myid : null;
     }
 
     refreshUsers = () => {

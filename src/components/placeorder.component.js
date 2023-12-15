@@ -141,7 +141,6 @@ class PlaceOrderPage extends Component {
 
 
   render() {
-    const { products } = this.props;
     const { searchTerm } = this.state;
 
     const filteredProducts = this.props.products.filter(product =>

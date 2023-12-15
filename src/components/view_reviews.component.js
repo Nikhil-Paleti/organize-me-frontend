@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Modal, Button, Form } from 'react-bootstrap'; 
+import { Modal, Button } from 'react-bootstrap'; 
 
 import { listAllProducts } from '../actions/productActions';
 import {listAllOrders } from "../actions/orderAction"
@@ -31,7 +31,7 @@ class ViewFeedbackPage extends Component {
       
 
     renderOrderModal = () => {
-        const { selectedOrder, feedback  } = this.state;
+        const { selectedOrder  } = this.state;
         const { products } = this.props; // Use products from props
       
         if (!selectedOrder) return null;

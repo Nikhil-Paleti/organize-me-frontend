@@ -144,7 +144,6 @@ class ManageUsersPage extends Component {
         );
     };
     render() {
-        const { users } = this.props;
         const { searchTerm } = this.state;
 
         const filteredUsers = this.props.users.filter(user =>
