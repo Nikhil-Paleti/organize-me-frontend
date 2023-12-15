@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/organize-me-frontend/static/css/main.04a4beab.css",
+    "main.js": "/organize-me-frontend/static/js/main.1e5e2857.js",
+    "index.html": "/organize-me-frontend/index.html",
+    "main.04a4beab.css.map": "/organize-me-frontend/static/css/main.04a4beab.css.map",
+    "main.1e5e2857.js.map": "/organize-me-frontend/static/js/main.1e5e2857.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04a4beab.css",
+    "static/js/main.1e5e2857.js"
+  ]
+}
